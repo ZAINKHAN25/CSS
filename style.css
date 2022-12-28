@@ -22,16 +22,31 @@ a:hover{
 
 *{
     padding: 0;
-    margin: 0;
-    background-color: rgb(222, 231, 165);   
+    margin:0;
+    background-color: rgb(230, 244, 33);
 }
 
 .Workingarea {
     margin-top: 18px;
     width: 773px;
-    height: 570px;
+    height: 100%;
     background-color: rgb(52, 240, 19);
     /* border: 1px solid black; */
     margin-left: auto;
     margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#headingnoone{
+    font-weight: bolder;
+    font-size: xx-large;
+    padding-top: 20px;
+}
+
+.Workingarea, #headingnoone, img, p{
+    background-color: rgb(52, 240, 19);
+}
+#imges{
+    background-color: rgb(52, 240, 19);
 }
