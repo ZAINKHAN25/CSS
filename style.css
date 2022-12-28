@@ -1,6 +1,6 @@
 a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(1, 1, 1);
     border: 1px solid rgb(116, 116, 116);
     background-color: rgb(9, 196, 253);
     font-size: xx-large;
@@ -9,28 +9,30 @@ a {
 }
 
 a:hover{
-    color:rgb(0, 255, 166) ;
+    color:rgb(255, 255, 255) ;
     font-size: 40px;
     margin: 10px 10px;
 }
 
 .firstlogo{
-    background-color: red;
-    width: 100%;
-    height: 133px;
+    background-color: rgb(148, 198, 253);
+    width: 100%; 
+    height: 127px;
+    /* position:relative; */
+    /* margin: 20px; */
 }
 
 *{
     padding: 0;
     margin:0;
-    background-color: rgb(230, 244, 33);
+    background-color: rgb(172, 174, 156);
 }
 
 .Workingarea {
     margin-top: 18px;
     width: 773px;
     height: 100%;
-    background-color: rgb(52, 240, 19);
+    background-color: lightblue;
     /* border: 1px solid black; */
     margin-left: auto;
     margin-right: auto;
@@ -45,8 +47,20 @@ a:hover{
 }
 
 .Workingarea, #headingnoone, img, p{
-    background-color: rgb(52, 240, 19);
+    background-color: lightblue;
 }
 #imges{
-    background-color: rgb(52, 240, 19);
+    background-color: lightblue;
+    padding-top: 30px;
+}
+
+#logoheading{
+    background-color: rgba(122, 122, 122, 000);
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
+
+i:hover {
+    color: white;
 }
