@@ -22,5 +22,16 @@ a:hover{
 
 *{
     padding: 0;
-    margin: 0;   
+    margin: 0;
+    background-color: rgb(222, 231, 165);   
+}
+
+.Workingarea {
+    margin-top: 18px;
+    width: 773px;
+    height: 570px;
+    background-color: rgb(52, 240, 19);
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
 }
